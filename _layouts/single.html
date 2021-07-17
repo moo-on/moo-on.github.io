@@ -30,7 +30,7 @@ layout: default
           <!--{% include page__meta.html %}-->
           <!--양식1-->
           {% if page.date %}
-            <p class="page__date"><i class="far fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</p>
+            <p class="page__meta"><i class="far fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</p>
           {% endif %}
           <!--양식2
           <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 
@@ -63,7 +63,7 @@ layout: default
         {% include page__date.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+      <!-- {% if page.share %}{% include social-share.html %}{% endif %} -->
 
       {% include post_pagination.html %}
     </div>
