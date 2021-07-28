@@ -2,7 +2,7 @@
 date: 2021-07-28
 
 title: "Python Numeric and Mathmedical Modules"
-excerpt: ""
+excerpt: "about Numeric and Mathmedical Modules that Python bulit-in types"
 
 categories: Python
 tags: numeric, math

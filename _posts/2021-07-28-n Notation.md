@@ -2,7 +2,7 @@
 date: 2021-07-28
 
 title: "N Notation For Python"
-excerpt: ""
+excerpt: "about binary, decimal, octal and hex conversion for Python "
 
 categories: Python
 tags: notation, binary, octal, decimal, hex

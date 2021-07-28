@@ -2,7 +2,7 @@
 date: 2021-07-28
 
 title: "Python Dictionary and Set Methods"
-excerpt: ""
+excerpt: "about Dictionary and Set that Python bulit-in types"
 
 categories: Python
 tags: dictionary, set

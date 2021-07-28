@@ -2,7 +2,7 @@
 date: 2021-07-28
 
 title: "Python String Methods"
-excerpt: ""
+excerpt: "about String that Python bulit-in types"
 
 categories: Python
 tags: python method

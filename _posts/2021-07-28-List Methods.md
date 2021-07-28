@@ -2,7 +2,7 @@
 date: 2021-07-28
 
 title: "Python List Methods"
-excerpt: ""
+excerpt: "about list that Python bulit-in types"
 
 categories: Python
 tags: list

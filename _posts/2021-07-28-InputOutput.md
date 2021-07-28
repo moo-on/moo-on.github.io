@@ -2,7 +2,7 @@
 date: 2021-07-28
 
 title: "Python I/O methods"
-excerpt: ""
+excerpt: "about I/O in python"
 
 categories: Python
 tags: I/O

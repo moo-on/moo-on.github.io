@@ -1,7 +1,7 @@
 ---
 title: "Python"
 layout: archive
-permalink: categories/Pyhton
+permalink: categories/Python
 author_profile: true
 sidebar_main: true
 ---
