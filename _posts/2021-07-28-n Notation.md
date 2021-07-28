@@ -10,14 +10,15 @@ tags: notation, binary, octal, decimal, hex
 toc: true  
 toc_sticky: true
 toc_label: "contents"
-toc_icon : 
+
 
 last_modified_at : 2021-07-28
 ---
 about binary, decimal, octal and hex conversion for Python 
 
-파이썬으로 2진법 8진법 10진법 16진법 변환, korean version ↓  
-https://puffy-juice-530.notion.site/Math-7cad080debfe428a8fc8efb465b6084b
+파이썬으로 2진법 8진법 10진법 16진법 변환,
+<span style = "color:blue;">[korean version](https://puffy-juice-530.notion.site/Math-7cad080debfe428a8fc8efb465b6084b)</span>
+
 
 ## Notation
 
@@ -26,7 +27,7 @@ https://puffy-juice-530.notion.site/Math-7cad080debfe428a8fc8efb465b6084b
   
     binary → decimal     : The multiplier of 2 increases by one
 
-    $$1010101(2) -> 2^6 + 2^4 + 2^2 + 2^0 = 64 + 16 + 4 +1 = 85$$
+    $1010101(2) -> 2^6 + 2^4 + 2^2 + 2^0 = 64 + 16 + 4 +1 = 85$
 
     decimal → binary : Divide by 2 each time 
     85  
