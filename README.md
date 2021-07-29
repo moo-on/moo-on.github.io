@@ -1,4 +1,4 @@
 # TIL
 
-[my small tech note](https://moo-on.github.io)  
-my main tech note is notion :)
+[my small tech diary](https://moo-on.github.io)  
+my main tech diary is notion :)
