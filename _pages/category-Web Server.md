@@ -1,11 +1,11 @@
 ---
-title: "Python"
+title: "Web Server"
 layout: archive
-permalink: categories/Web Server
+permalink: categories/WebServer
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories[Web server] %}
+{% assign posts = site.categories['WebServer'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
