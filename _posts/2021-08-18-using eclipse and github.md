@@ -30,7 +30,9 @@ local에서 eclipse-workspace와 git repository라는 폴더 2개에서 eclipse-
 가장 깔끔하게 integrate하는 방법을 소개해보자면,  
 1. git pull origin main :보통 ignore파일을 만들어놓는게 편하니 해당 명령어로 불러온다.
 2. 해당 명령어로 불러오면 git bash에서는 자동으로 master branch가 생성되면서 저장된다.
-    -  이게 싫으면, gir pull --rebase origin main으로 받아오면 master branch가 생성이 안되고 main branch가 생성되면서 해당 branch에 받아와지게 된다. 그 후 git checkout main으로 master에서 main으로 바꿔줘야되는데 번거로우니까 그냥 12345번 따라하자.
+    -  이게 싫으면, 
+    -  git pull --rebase origin main으로 받아오면 master branch가 생성이 안되고 main branch가 생성되면서 해당 branch에 받아와지게 된다. 
+    -  그 후 git checkout main으로 master에서 main으로 바꿔줘야되는데 번거로우니까 그냥 12345번 따라하자.
 3. git add .
 4. git commit -m "하고싶은말"
 5. git push -u origin master
