@@ -39,4 +39,4 @@ tomcat설치 후 local서버에 8080으로 호스트 달고 작동 한번시켜�
 2. java EE toolsGenerate Deployment Discriptor stub
 3. web.xml이 생성
 
-가끔 dynamic web 생성 시에 안만들어진다는데, 모든 에러는 나를 한번씩 거쳐가는것 같은 느낌ㅎ
+가끔 dynamic web 생성 시에 오류로 안만들어진다는데, 프로젝트 생성할 때 해당 파일 체크해제해서 그런거다.
