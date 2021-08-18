@@ -20,7 +20,10 @@ last_modified_at : 2021-08-18
 
 1. 실행 console
 2. services.msc
-3. MySQL 찾아서 수동으로 실행 시켜주기
+3. MySQL 찾아서 수동으로 실행 시켜주기  
+
++8.023최신 버전에서는 connection상태에서도 Workbench는 런타임 에러가 있으니 좀 더 낮은 버전으로 하는 것을 추천.
+
 ---
 ## Mysql Workbench : current profile has no WMI enabled
 > solution  
