@@ -40,4 +40,4 @@ local에서 eclipse-workspace와 git repository라는 폴더 2개에서 eclipse-
 6. main branch를 setting에 들어가서 master branch에 default를 넘겨주고 삭제해준다.
 
 초기 세팅 완료다.
-역시 jetbrain이 짱이다.협업 할 때도 import시 개인 개발환경에 따른 파일 설정도 훨씬 편하다. 유튜브프리미엄 결제 할 돈 아껴서 intellij&pycharm 구독을 하자.
+역시 jetbrain이 짱이다.협업 할 때도 개인 개발환경에 파일 설정도 훨씬 편하다. 유튜브프리미엄 결제 할 돈 아껴서 intellij&pycharm 구독을 하자.

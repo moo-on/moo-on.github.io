@@ -20,18 +20,20 @@ last_modified_at : 2021-08-17
 
 >why?  
 
-tomcat설치 후 local서버에 8080으로 호스트 달고 작동 한번시켜봐서, 이클립스에서 작동하는 서버가 설정이 안되있어서 오류가 발생했다.  
+tomcat설치 후 8080으로 http/1.1이 연결되있었지만, admin port번호가 공란으로 되있었다.
 
 >solution  
 
 1. **server tab의 overview**에서 
-2. **tomcat admin port or http/1.1**를 다른 번호로 원하는 포트번호로 수정을 하면된다.  
+2. **tomcat admin port and http/1.1**를 각기 다른 번호로 포트번호를 수정을 하면된다.  
 
 참고로 이미 사용중이거나, 다른곳에 쓰이는 포트번호 괜히 건들지말고 무난하게 8081같은걸로 하자.  
-hosting은 admin port번호로 되지만 http포트 설정이 이상해도 작동 오류가 나니 둘 다 해줘야한다.
+hosting은 http/1.1번호로 되지만 admin port 설정이 이상해도 작동 오류가 나니 둘 다 해줘야한다.
 ...  
 
-로컬에서 ide는 http1.1로 연동이 된다. 그러므로 admin port는 원격배포할 때 신경을 쓰면 될거 같다!
+로컬에서 ide는 http1.1로 연동이 된다. 그러므로 admin port는 원격배포할 때 신경을 쓰면 될거 같다!  
+**[정리]**  
+http1.1로 연동이되지만, adminport의 번호가 이상해도 작동 에러가 난다. 
 
 ---  
 ## web.xml이 없을 때
