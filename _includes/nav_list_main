@@ -26,6 +26,9 @@
                     {% if category[0] == "WebServer" %}
                         <li><a href="/categories/WebServer" class="">Web Server ({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "DesignPattern" %}
+                        <li><a href="/categories/DesignPattern" class="">Design Pattern({{category[1].size}})</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
             
