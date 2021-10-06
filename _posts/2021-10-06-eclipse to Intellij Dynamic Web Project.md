@@ -1,5 +1,5 @@
 ---
-date: 2021-08-17
+date: 2021-10-06
 
 title: "eclipse to Intellij Dynamic Web Project"
 excerpt: "about the eclipse Project use to Intellij "
