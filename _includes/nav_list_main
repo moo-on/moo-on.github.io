@@ -41,6 +41,9 @@
                     {% if category[0] == "Error" %}
                         <li><a href="/categories/Error" class="">Error ({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "DevTool" %}
+                        <li><a href="/categories/DevTool" class="">Dev Tool({{category[1].size}})</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
       </li>
