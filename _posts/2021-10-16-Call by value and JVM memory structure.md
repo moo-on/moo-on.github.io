@@ -32,7 +32,7 @@ Java에는 해당 호출 방식을 안 쓰지만, 원본이 변경되는 경우�
 
  
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8ac6934-ed30-4207-95f0-6bc907e27cee/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/70089259/137581161-a3f04640-fd2c-4873-a5fb-daaae8dfa1d9.png)
 
 클래스를 만들고, 메서드 실행 시  매개변수로 원본을 변경하는 일이 발생합니다.
 
@@ -40,11 +40,11 @@ Java에는 해당 호출 방식을 안 쓰지만, 원본이 변경되는 경우�
 
 그리고 복사된 주소값으로 참조가 가능해져, 주소 값이 가르키는 객체가 변경됩니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a83d15c2-0777-4bd3-b7a6-898ca2df0daa/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/70089259/137581190-c2a28f64-7fa8-44cd-ac05-0a8f2ffc104a.png)
 
 a1, a2를 생성해주고, 메서드를 돌려 인자로 넣어줄 때 arg1, arg2가 주소값을 복사해서 독자적으로 가지고 있습니다. 여기서 주소값을 복사해서 가지는 **call by value**인겁니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06fb605e-8129-4681-b0ce-5fe8faa42568/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/70089259/137581206-e1335a5c-e3b0-4355-9f67-8cfcb7a92840.png)
 
 여기서 arg1의 가진 주소 값을 이용해서 값을 변경하기에 a1이 가르키는 객체의 값도 변경이 됩니다.
 
