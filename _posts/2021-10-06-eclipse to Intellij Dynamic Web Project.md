@@ -1,7 +1,7 @@
 ---
 date: 2021-10-06
 
-title: "eclipse to Intellij Dynamic Web Project"
+title: "Eclipse to Intellij Dynamic Web Project"
 excerpt: "about the eclipse Project use to Intellij "
 
 categories: DevTool
@@ -41,5 +41,6 @@ last_modified_at : 2021-10-06
 
 8. 밑에 Web facet resources를 끌어오거나 이미 있을 것이다.  
 
-9. 이제 세팅에서 tomcat을 추가로 넣어주면 된다. 여기서 본인이 단순 포트가 아닌 contextroot를 사용하는 경우에는 Application context를 알맞게 수정해줘야한다.  
+9. 이제 세팅에서 tomcat을 추가로 넣어주면 된다. tomcat tab에서 포트번호가 아닌 contextroot를 사용하는 경우에는 Application context를 알맞게 수정해줘야한다.  
 
+* facets과 Modules의 기능들이 연결되어있어서, 2개의 탭에서 순서가 섞일수도 있습니다.
