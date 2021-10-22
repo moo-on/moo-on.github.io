@@ -1,7 +1,7 @@
 ---
 date: 2021-10-22
 
-title: "Mybatis Start Guide"
+title: "Mybatis Guide"
 excerpt: "about the Mybatis"
 
 categories: Java
@@ -107,7 +107,7 @@ https://moo-on.github.io/java/JDBC-Start-Guide/
 ![image](https://user-images.githubusercontent.com/70089259/138480692-407a2a64-ef30-4662-936a-8ab480df8063.png)
 
 JDBC의 경우 DB와 access할 경우 connection객체의 생성과 작업 완료 후 닫어주는 방법으로 매번 연결 객체 생성과 종료가 반복된다. 이로 인해 리소스가 많이 들어가게 된다.  
-[JDBC참고](https://github.com/moo-on/jsp-tutorial/blob/MVC4/src/com/web/model/MemberDAO.java)
+[link참고](https://github.com/moo-on/jsp-tutorial/blob/MVC4/src/com/web/model/MemberDAO.java)
 
 
 Mybatis의 경우 
@@ -115,10 +115,13 @@ Mybatis의 경우
 2. 각각의 sqlsession은 DB와의 연결을 끊지 않고 연결이 필요한 메소드마다 session을 하나씩 가져가서 사용 후 반납을 한다. 기존에 DB와 연결하고 끊고를 하면서 사용했던 리소스가 줄어든다.
 
 
-  
-[소스참고](https://github.com/moo-on/jsp-tutorial/blob/master/src/com/web/model/MemberDAO.java)
+소스코드를 통해서 어떻게 사용되는지 확인하고싶다면 아래 링크를 참고하세요. 
 
+[factory생성_link참고](https://github.com/moo-on/jsp-tutorial/blob/master/src/com/web/model/MemberDAO.java)
 
+[SQLmapping_link참고](https://github.com/moo-on/jsp-tutorial/blob/master/src/com/web/mybatis/MemberMapper.xml)
+
+ 
 
 [reference]  
 [https://mybatis.org/mybatis-3/ko/getting-started.html](https://mybatis.org/mybatis-3/ko/getting-started.html)
