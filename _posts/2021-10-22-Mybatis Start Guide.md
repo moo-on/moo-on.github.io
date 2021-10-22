@@ -15,10 +15,22 @@ toc_icon :
 last_modified_at : 2021-10-22
 ---
 
+* JDBC를 모른다면, 아래 링크를 보고와주세요.  
+https://moo-on.github.io/java/JDBC-Start-Guide/
+
+
 ## Mybatis란?
 ![image](https://user-images.githubusercontent.com/70089259/138476296-ad67fba4-a5d7-4074-a18e-af02c5248898.png)
 
+DB access을 더 쉽게 도와주는 개발 프레임워크이다.  
+JDBC로 DB에 access에 하는 작업을 캡슐화하며, 일반SQL쿼리, 저장프로시져 및 고급 매핑을 지원하며 모든 JDBC코드 및 매개변수의 중복 작업을 제거합니다.  
 
+디자인적으로도 SQL쿼리들을 분리해 한 곳에 모아두어 분리 시킬 수 있습니다.
+
+JDBC의 단점(중요코드 노출, 개발속도, 자바소스&SQL소스 혼합)을 극복.  
+
+
+---
 
 ## 기본 환경 구성 & 사용법 
 
@@ -85,9 +97,26 @@ Mybatis를 사용하려면 위에 보이는 3가지 파일이 존재해야한다
         
 
  mybatis api가 1번 xml파일을 읽고 작동을 한다.
+
 ---
 
-미리 메모리에 connection을 만들어 놓는 것이 mybatis의 취지
+## SqlSessionFactory란?  
+* JDBC를 모른다면, 아래 링크를 보고와주세요.  
+https://moo-on.github.io/java/JDBC-Start-Guide/
+
+![image](https://user-images.githubusercontent.com/70089259/138480692-407a2a64-ef30-4662-936a-8ab480df8063.png)
+
+JDBC의 경우 DB와 access할 경우 connection객체의 생성과 작업 완료 후 닫어주는 방법으로 매번 연결 객체 생성과 종료가 반복된다. 이로 인해 리소스가 많이 들어가게 된다.  
+[JDBC참고](https://github.com/moo-on/jsp-tutorial/blob/MVC4/src/com/web/model/MemberDAO.java)
+
+
+Mybatis의 경우 
+1. SqlSessionFactory를 만들어준 후 이 안에 Sqlsession 5-8개를 생성을 해준다. 
+2. 각각의 sqlsession은 DB와의 연결을 끊지 않고 연결이 필요한 메소드마다 session을 하나씩 가져가서 사용 후 반납을 한다. 기존에 DB와 연결하고 끊고를 하면서 사용했던 리소스가 줄어든다.
+
+
+  
+[소스참고](https://github.com/moo-on/jsp-tutorial/blob/master/src/com/web/model/MemberDAO.java)
 
 
 
