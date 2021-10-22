@@ -15,7 +15,8 @@ toc_icon :
 last_modified_at : 2021-10-21
 ---
 
-JDBC사용법
+JDBC사용법  
+
 ![image](https://user-images.githubusercontent.com/70089259/138288823-336538a9-5ab7-4b00-aae7-bf648a619430.png)
 
 ## JDBC란?
@@ -26,8 +27,9 @@ JDBC사용법
 각 DB에서 connector를 배포하고 있다. tomcat 디렉토리 lib안에 넣어서 사용하면 된다.
 
 ## 기본 연결 객체
-```java
-	private Connection conn;
+
+```java  
+    private Connection conn;
     private PreparedStatement ps;
     private ResultSet rs;
 ```
