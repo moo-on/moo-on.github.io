@@ -55,7 +55,7 @@ arg2가 가지고 있던 주소 값을 변경한 것이기 때문에 원본인 a
 즉 자바는 모든 전달 방식이 call by value 입니다.
 
 
-* reference  
-https://deveric.tistory.com/92  
-https://medium.com/@lunay0ung/stack-vs-heap-a0a0fe5ec5ce  
-https://steady-coding.tistory.com/305  
+[reference]   
+- https://deveric.tistory.com/92  
+- https://medium.com/@lunay0ung/stack-vs-heap-a0a0fe5ec5ce  
+- https://steady-coding.tistory.com/305  

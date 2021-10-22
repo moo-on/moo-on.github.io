@@ -32,8 +32,8 @@ last_modified_at : 2021-10-17
 n = 10
 
 def test():
-		n = 20
-		return
+	n = 20
+	return
     
 test()
 print(n)
@@ -62,7 +62,7 @@ print(n)
 lst = []
 
 def func():
-    lst.append
+    lst.append(4)
     return
 
 func()
