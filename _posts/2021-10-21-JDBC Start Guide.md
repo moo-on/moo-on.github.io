@@ -69,4 +69,4 @@ URL, user, password는 DB설정과 똑같이 맞춰 준다.
 
 Web 내부에서 JDBC를 통한 insert, delete, update 등 코드를 참고하고 싶다면, 아래 링크에서 확인 바랍니다.
 
-[link](https://github.com/moo-on/jsp-tutorial/blob/MVC4/src/com/web/model/MemberDAO.java)
+<https://github.com/moo-on/jsp-tutorial/blob/MVC4/src/com/web/model/MemberDAO.java>
