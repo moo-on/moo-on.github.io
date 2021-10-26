@@ -5,7 +5,7 @@ title: "Mybatis Guide"
 excerpt: "about the Mybatis"
 
 categories: Java
-tags: java, jdbc, sql
+tags: java, jdbc
 
 toc: true  
 toc_sticky: true

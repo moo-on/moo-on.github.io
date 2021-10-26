@@ -5,7 +5,7 @@ title: "JDBC Guide"
 excerpt: "about the JDBC Start Guide"
 
 categories: Java
-tags: java, JDBC, sql
+tags: java, JDBC
 
 toc: true  
 toc_sticky: true
@@ -15,7 +15,7 @@ toc_icon :
 last_modified_at : 2021-10-21
 ---
 
-JDBC사용법  
+# JDBC사용법  
 
 ![image](https://user-images.githubusercontent.com/70089259/138288823-336538a9-5ab7-4b00-aae7-bf648a619430.png)
 
