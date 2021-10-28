@@ -16,7 +16,7 @@ last_modified_at : 2021-10-22
 ---
 
 * JDBC를 모른다면, 아래 링크를 보고와주세요.  
-https://moo-on.github.io/java/JDBC-Start-Guide/
+<https://moo-on.github.io/java/JDBC-Start-Guide/>
 
 
 ## Mybatis란?
@@ -102,7 +102,7 @@ Mybatis를 사용하려면 위에 보이는 3가지 파일이 존재해야한다
 
 ## SqlSessionFactory란?  
 * JDBC를 모른다면, 아래 링크를 보고와주세요.  
-https://moo-on.github.io/java/JDBC-Start-Guide/
+<https://moo-on.github.io/java/JDBC-Start-Guide/>
 
 ![image](https://user-images.githubusercontent.com/70089259/138480692-407a2a64-ef30-4662-936a-8ab480df8063.png)
 
@@ -117,11 +117,13 @@ Mybatis의 경우
 
 소스코드를 통해서 어떻게 사용되는지 확인하고싶다면 아래 링크를 참고하세요. 
 
-[factory생성_link참고](https://github.com/moo-on/jsp-tutorial/blob/master/src/com/web/model/MemberDAO.java)
+factory생성_link참고  
+<https://github.com/moo-on/jsp-tutorial/blob/master/src/com/web/model/MemberDAO.java>
 
-[SQLmapping_link참고](https://github.com/moo-on/jsp-tutorial/blob/master/src/com/web/mybatis/MemberMapper.xml)
+SQLmapping_link참고  
+<https://github.com/moo-on/jsp-tutorial/blob/master/src/com/web/mybatis/MemberMapper.xml>
 
  
-
+---
 [reference]  
-[https://mybatis.org/mybatis-3/ko/getting-started.html](https://mybatis.org/mybatis-3/ko/getting-started.html)
+- [https://mybatis.org/mybatis-3/ko/getting-started.html](https://mybatis.org/mybatis-3/ko/getting-started.html)
