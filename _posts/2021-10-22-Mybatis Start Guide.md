@@ -107,7 +107,7 @@ Mybatis를 사용하려면 위에 보이는 3가지 파일이 존재해야한다
 ![image](https://user-images.githubusercontent.com/70089259/138480692-407a2a64-ef30-4662-936a-8ab480df8063.png)
 
 JDBC의 경우 DB와 access할 경우 connection객체의 생성과 작업 완료 후 닫어주는 방법으로 매번 연결 객체 생성과 종료가 반복된다. 이로 인해 리소스가 많이 들어가게 된다.  
-[link참고](https://github.com/moo-on/jsp-tutorial/blob/MVC4/src/com/web/model/MemberDAO.java)
+[link참고](https://github.com/moo-on/jsp-tutorial/blob/MVC4/src/com/web/model/MemberDAO.java/)
 
 
 Mybatis의 경우 
