@@ -34,6 +34,18 @@
                     {% if category[0] == "DesignPattern" %}
                         <li><a href="/categories/DesignPattern" class="">Design Pattern({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "BigDataPlatform" %}
+                        <li><a href="/categories/BigDataPlatform" class="">Big Data Platform({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <span class="nav__sub-title">Computer Science</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "OS" %}
+                        <li><a href="/categories/OS" class="">OS({{category[1].size}})</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
             
