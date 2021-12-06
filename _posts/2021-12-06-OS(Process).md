@@ -33,9 +33,7 @@ last_modified_at : 2021-12-06
     
 ![image](https://user-images.githubusercontent.com/70089259/144777916-193a1164-8fa5-414b-8186-eff1bfb95331.png)
 <div align = "center">
-<aside>
-💡  bus를 이용하여 각 하드웨어에 맞는 시스템 구성요소와 통신.
-</aside>
+> 💡 bus를 이용하여 각 하드웨어에 맞는 시스템 구성요소와 통신.
 </div>
 
 ### bootstrap program
