@@ -31,11 +31,11 @@ last_modified_at : 2021-12-06
 ## Classical Computer-System Organization - 1.2
     
 ![image](https://user-images.githubusercontent.com/70089259/144777916-193a1164-8fa5-414b-8186-eff1bfb95331.png)
-
+<div align = "center">
 <aside>
 💡  bus를 이용하여 각 하드웨어에 맞는 시스템 구성요소와 통신.
-
 </aside>
+</div>
 
 ### bootstrap program
 
@@ -55,14 +55,16 @@ last_modified_at : 2021-12-06
 2. memory에서 fetch후 cpu에서 execute된다.
 
 ### storage system
-
-![image](https://user-images.githubusercontent.com/70089259/144778232-a3fc777f-f193-42f5-86fa-cb21d384624a.png)
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/70089259/144778232-a3fc777f-f193-42f5-86fa-cb21d384624a.png">
+</p>
 
 이런 계층 구조를 관리한다.
 
 ### I/O Structure
-
-![image](https://user-images.githubusercontent.com/70089259/144778251-47f15435-77ed-426e-b372-44d4cd2dfc9f.png)
+<p align = "center">
+<img src = "https://user-images.githubusercontent.com/70089259/144778251-47f15435-77ed-426e-b372-44d4cd2dfc9f.png">
+</p>
 
 DMA : Direct Memory Access, ex)유튜브
 
