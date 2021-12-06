@@ -20,6 +20,7 @@
 }
 
 body {
+  font-size: smaller; //추가
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,6 +29,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
           flex-direction: column;
+
 }
 
 .initial-content,
