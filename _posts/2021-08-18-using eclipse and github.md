@@ -15,14 +15,14 @@ toc_icon :
 last_modified_at : 2021-08-18
 ---
 
-eclipse와 원격 저장소의 연결 방법은
+eclipse와 원격 저장소의 연결 방법은 크게 2가지이고 후자의 방법을 추천한다.
 
 ## 1. eclipse에서 github와 연결하기
 - clone해오기(git reposit 자동생성)
 - 직접 git reposit 만들어서 커밋하기
 
 이 말이 이해가 안 갈수가 있다.  
-local에서 eclipse-workspace와 git repository라는 폴더 2개에서 eclipse-workspace에서 작업을 하고 git repository폴더에 올리는 식이다. GUI를 지원을 하지만 미니멀한 환경이 아니면 안쓰고 만다 라는 생각을 하고있는 나였기에 과감히 포기.  
+local에서 eclipse-workspace와 git repository라는 폴더 2개에서 eclipse-workspace에서 작업을 하고 git repository폴더에 올리는 식이다. GUI를 지원을 하지만 컴팩트한 환경이 아니기에 과감히 포기.  
 **+eclipse 연결할 때 따로 github에서 토큰을 발행 후 인증을 해줘야하는 것으로 바뀌었다.아무것도 모르고 이메일과 비밀번호를 입력 칸에 넣는다면 git-receive-pack not permitted on 라는 에러문구가 보일것이다.**
 
 ## 2. workspace에서 gitbash 이용하기

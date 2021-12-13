@@ -17,7 +17,7 @@ last_modified_at : 2021-10-06
 
 소중한 시간을 많이 허비했기에, 같은 경험을 하는 분이 있다면, 도움이 되길 참고용으로 올립니다...
 
-원래 좀 변태 같은 성향이 있기에 클래식은 역시 eclipse라며 dynamic web project를 생성 후 프로젝트를 진행을 하였다.
+클래식은 역시 eclipse라며 dynamic web project를 생성 후 프로젝트를 진행을 하였다.
 
 어느정도 진행을 하고 이제는 intellij로 갈아타려는데 Build tool을 안썼기에 디렉토리 구조가 꽤나 달랐다. 개발환경은 맞추지 않아도 Build tool은 꼭 쓰자!!
 
